@@ -7,7 +7,7 @@ const app = express();
 const server = http.createServer(app);
 
 const configuration = new Configuration({
-    apiKey: "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",
+    apiKey: "", // <- Aquí tu API key
   });
 
 const openai = new OpenAIApi(configuration);
